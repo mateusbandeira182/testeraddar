@@ -1,0 +1,334 @@
+/** Configurações **/
+.c-header {
+    color: #10404B;
+}
+.c-text {
+    color: #243352;
+}
+.kanit-light {
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kanit-regular {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-bold {
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kanit-black {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/** Navbar **/
+#nav-top {
+    background: url('images/top-background.png') no-repeat center center;
+    background-size: cover;
+}
+.link-box > p {
+    font-family: "Kanit", serif;
+    font-style: normal;
+}
+
+.link-box > p > span {
+    font-weight: 700;
+}
+.link-box-phone > p {
+    color: #10404B;
+}
+.link-box-whats > p {
+    color: #70AA7D;
+}
+.divider {
+    border-color: #B4B4B4;
+}
+#navbarTop > ul > li > a {
+    color: #10404B;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/** NavLines **/
+#nav-lines {
+    background-color: #10404B;
+}
+
+#navbarLines > ul > li > a {
+    color: #fff;
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 8px 32px;
+}
+
+/** Icones **/
+.icon-box-phone {
+    width: 48px;
+    height: 48px;
+    background-color: #10404B;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box-whats {
+    width: 48px;
+    height: 48px;
+    background-color: #70AA7D;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-phone {
+    content: url('icons/telefone.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.icon-whats {
+    content: url('icons/whatsapp.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.icon-budget {
+    content: url('icons/dollar-sign.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.icon-cart {
+    content: url('icons/green-cart.svg');
+    width: 16px;
+    height: 16px;
+    color: #10404B;
+}
+.icon-tooth {
+    content: url('icons/dente.svg');
+    height: 36px;
+    width: 28px;
+}
+
+.icon-scapel {
+    content: url('icons/bisturi.svg');
+    height: 36px;
+    width: 36px;
+}
+
+.icon-vet {
+    content: url('icons/pata.svg');
+    height: 36px;
+    width: 36px;
+}
+
+.icon-inject {
+    content: url('icons/seringa.svg');
+    height: 36px;
+    width: 36px;
+}
+
+.icon-hospital {
+    content: url('icons/hospitalar.svg');
+    height: 36px;
+    width: 36px;
+}
+.icon-whats-big {
+    content: url('icons/whatsapp-litle.svg');
+}
+.icon-cart-card {
+    content: url('icons/cart.svg');
+    width: 16px;
+    height: 16px;
+}
+.icon-left {
+    content: url('icons/left.svg');
+    width: 16px;
+    height: 12px;
+}
+.icon-right {
+    content: url('icons/right.svg');
+    width: 16px;
+    height: 12px;
+}
+/** Cards **/
+.title-content > h2 {
+    color: #243352;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+.title-content > a {
+    color: #10404B;
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: underline;
+}
+/** Cards **/
+.card-content {
+    padding: 16px;
+    background-color: #ececec;
+    border-radius: 24px 24px 24px 0px;
+    position: relative;
+}
+.card-buttons {
+    position: relative;
+}
+.image-content {
+    position: relative;
+}
+.img-cart {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #10404B;
+}
+.text-content {
+    margin-top: 8px;
+}
+.text-content > h3 {
+    color: #243352;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+.text-content > a.card-link {
+    color: #243352;
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.box-budget {
+    padding: 12px 16px;
+    background-color: #ececec;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    position: relative;
+    z-index: 2;
+}
+.box-whatsapp {
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 24px;
+    position: relative;
+    z-index: 2;
+}
+.box-whatsapp::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    /* Largura e altura do “recorte” arredondado */
+    width: 24px;
+    height: 24px;
+
+    background: #ececec;
+
+    /*
+      A ideia é deslocar esse círculo para baixo/direita,
+      criando a sensação de que o card tem um recorte curvo
+      onde o botão verde “encaixa”.
+    */
+    z-index: 1; /* Para ficar acima do fundo do card */
+  }
+
+  .box-whatsapp::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 24px;
+    z-index: 1;
+  }
+
+.btn-budget {
+    text-decoration: none;
+    color: #fff;
+    background-color: #D32020;
+    padding: 12px 40px;
+    border-radius: 24px;
+    font-weight: 700;
+    font-family: "Kanit", serif;
+    font-style: normal;
+}
+
+.btn-cart {
+    text-decoration: none;
+    color: #10404B;
+    background-color: transparent;
+    padding: 12px 40px;
+    border-radius: 24px;
+    font-weight: 700;
+    font-family: "Kanit", serif;
+    font-style: normal;
+    border: 1px solid #10404B;
+}
+
+.btn-whatsapp {
+    display: flex;
+    text-decoration: none;
+    width: 48px;
+    height: 48px;
+    color: #fff;
+    background-color: #2FB54D;
+    padding: 12px;
+    border-radius: 24px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+.box-controls {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+.rounded-indicator {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
+
+.indicators-slide > button {
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #17171760;
+    border: none;
+}
+
+.indicators-slide > button.active {
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #171717;
+    border: none;
+}

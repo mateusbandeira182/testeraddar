@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <section id="nav-top" class="pt-4 pb-2">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand me-5" href="index.html">
+                        <img src="assets/images/logo.png" alt="Logo da Marca" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop"
+                        aria-controls="navbarTop" aria-expanded="false" aria-label="Alternar navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-topmenu w-100">
+                        <ul class="list-unstyled d-inline-flex flex-row justify-content-end align-items-center gap-5 m-0 p-0 w-100">
+                            <li class="item">
+                                <a href="#" class="text-decoration-none d-flex gap-2">
+                                    <div class="icon-box-phone">
+                                        <i class="icon-phone"></i>
+                                    </div>
+                                    <div class="link-box link-box-phone">
+                                        <p class="mb-0"><span>Telefone</span><br>(62) 3092-3817</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="text-decoration-none d-flex gap-2">
+                                    <div class="icon-box-whats">
+                                        <i class="icon-whats"></i>
+                                    </div>
+                                    <div class="link-box link-box-whats">
+                                        <p class="mb-0"><span>Whatsapp</span><br>(62) 9 9245-6171</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="btn-cart d-flex align-items-center">
+                                    <i class="icon-cart me-2"></i>
+                                    <span class="text-uppercase">+ Carrinho</span>
+                                </a>
+                                
+                            </li>
+                            <li class="item">
+                                <a href="#" class="btn-budget d-flex align-items-center">
+                                    <i class="icon-budget me-2"></i>
+                                    <span class="text-uppercase">Orçamento</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <hr class="mt-4 mb-3 divider">
+                        <div class="collapse navbar-collapse" id="navbarTop">
+                            <ul class="navbar-nav justify-content-between w-100">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Fornecedores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Depoimentos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Dúvidas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Orçamento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Fale Conosco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ASTHAMEDCARE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section id="nav-lines">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarLines" aria-controls="navbarLines"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarLines">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="#">
+                                    <i class="icon-tooth me-2"></i>
+                                    <span>Linha odontológica</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="#">
+                                    <i class="icon-scapel me-2"></i>
+                                    <span>Linha Estética</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="#">
+                                    <i class="icon-vet me-2"></i>
+                                    <span>Linha verterinária</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="#">
+                                    <i class="icon-inject me-2"></i>
+                                    <span>Medicamentos injetáveis</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center" href="#">
+                                    <i class="icon-hospital me-2"></i>
+                                    <span>Materiais Hospitalares</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section id="hospital" class="my-4">
+            <div class="container">
+                <div class="title-content d-flex justify-content-between align-items-center mb-3">
+                    <h2 class="h3">Materiais Hospitalares</h2>
+                    <a href="#" class="check-them-all text-lowercase">Confira todos ></a>
+                </div>
+                <div class="carousel slide" id="carouselHospitalar">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="card-product">
+                                        <div class="card-content">
+                                            <div class="image-content">
+                                                <img src="assets/images/image-place.png" alt="Imagem do produto" class="img-fluid">
+                                                <a class="img-cart" href="#" class="text-decoration-none">
+                                                    <i class="icon-cart-card"></i>
+                                                </a>
+                                            </div>
+                                            <div class="text-content text-center">
+                                                <h3 class="h5 text-uppercase">Mascara tripla<br><span>Eslatico c/50</span></h3>
+                                                <a href="#" class="card-link text-uppercase">Saiba mais</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-buttons d-flex justify-content-between">
+                                            <div class="box-budget">
+                                                <a href="#" class="btn-budget d-flex align-items-center">
+                                                    <i class="icon-budget me-2"></i>
+                                                    <span class="text-uppercase">Orçamento</span>
+                                                </a>
+                                            </div>
+                                            <div class="box-whatsapp">
+                                                <a href="#" class="btn-whatsapp">
+                                                    <i class="icon-whats-big"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-controls">
+                        <button class="rounded-indicator" type="button" data-bs-target="#carouselHospitalar" data-bs-slide="prev">
+                            <i class="icon-left"></i>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <div class="indicators-slide d-flex gap-2">
+                            <button type="button" data-bs-target="#carouselHospitalar" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselHospitalar" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselHospitalar" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselHospitalar" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <button class="rounded-indicator" type="button" data-bs-target="#carouselHospitalar" data-bs-slide="next">
+                            <i class="icon-right"></i>
+                            <span class="visually-hidden">Proximo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+</html>
